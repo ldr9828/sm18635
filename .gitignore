@@ -1,0 +1,11 @@
+# Build outputs from Makefile
+/sm18635_spi
+/sm18635_spi_host
+/test_spidev_mock.so
+
+# Offline waveform export from the README example
+/waveform.bin
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
