@@ -1,0 +1,32 @@
+# Build output directories
+/build/
+/build-host/
+/build-mips/
+/cmake-build-*/
+
+# External kernel module build artifacts
+/kernel/*.o
+/kernel/*.ko
+/kernel/*.mod
+/kernel/*.mod.c
+/kernel/.*.cmd
+/kernel/.*.d
+/kernel/.tmp_versions/
+/kernel/Module.symvers
+/kernel/modules.order
+
+# Python test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local tool configuration and credentials
+/.agents/
+/.codex/
+/.aws/
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+.DS_Store
